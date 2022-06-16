@@ -1,0 +1,6 @@
+x = input ("Digite algo:")
+print ("o tipo primitivo desse valor é",type(x))
+print ("É somente espaços?", x.isspace())
+print ("É alfabetico?",x.isalpha())
+print("É númerico?",x.isnumeric())
+print("É alfanúmerico?",x.isalnum())
