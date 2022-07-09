@@ -1,6 +1,3 @@
-from random import normalvariate
-
-
 somaidade = 0
 media = 0
 nomev = 0
@@ -26,7 +23,4 @@ for c in range(1,5):
 media = somaidade / 4
 print ('A média de idade do grupo é de {} anos'.format(media))
 print ('O homem mais velho se chama {} e tem {} anos!'.format(nomev, idadev))
-if totM < 1:
-    print ('Ao total temos 1 mulher com menos de 20 anos')
-else:
-    print('Ao todo são {} mulheres com menos de 20 anos'.format(totM))
+print('Ao todo são {} mulheres com menos de 20 anos'.format(totM))
