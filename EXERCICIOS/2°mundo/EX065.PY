@@ -10,7 +10,7 @@ while r in 'Ss':
         if n > maior:
             maior = n
         if n < menor:
-            menor = num
+            menor = n
     r = str(input('Deseja continuar [S/N] ? ')).strip().upper()[0]
 media = soma / cont
 print ('Você digitou {} números e a média foi {}'.format(cont, media))
