@@ -4,7 +4,7 @@
   </a>
 </h1>
   
-Repositório dedicado a resolução dos desafios do  peirmeiro e segundo mundo, propostos no curso de Python 3 no canal Curso Em Vídeo.
+Repositório dedicado a resolução dos desafios propostos no curso de Python 3 no canal Curso Em Vídeo.
 
  [*_Clique aqui_*](https://www.python.org/downloads/) para abaixar o Python 3.
  <hr>
