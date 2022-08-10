@@ -17,5 +17,13 @@ while True:
     if res == 'N':
         break
 print (f'Ao total temos {len(list)} pessoas cadrastadas')
-print(f'O maior peso foi {mai}')
-print(f'O menor peso foi {men}')
+print(f'O maior peso foi de {mai}, pertencendo a ', end='')
+for p in list:
+    if p[1] == mai:
+        print(f'[{p[0]}', end='')
+print()
+print(f'O menor peso foi de {men} kg. Peso de ', end='')
+for p in list:
+    if p[1] == men:
+        print(f'[{p[0]}] ', end='')
+print()
