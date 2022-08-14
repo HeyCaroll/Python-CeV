@@ -1,9 +1,9 @@
 pes = []
-mai = men = 0
 list = []
+mai = men = 0
 while True:
-    pes.append(str(input(' informe o seu nome: ')))
-    pes.append(float(input('informe o seu peso: ')))
+    pes.append(str(input('Informe o seu nome: ')))
+    pes.append(float(input('Informe o seu peso: ')))
     if len(list) == 0:
         mai = men = pes [1]
     else:
@@ -16,11 +16,12 @@ while True:
     res = str(input('Deseja continuar? [S/N] ')).upper().strip()
     if res == 'N':
         break
-print (f'Ao total temos {len(list)} pessoas cadrastadas')
+print('-=-' * 30)
+print (f'Ao total temos {len(list)} pessoas cadastradas')
 print(f'O maior peso foi de {mai}, pertencendo a ', end='')
 for p in list:
     if p[1] == mai:
-        print(f'[{p[0]}', end='')
+        print(f'[{p[0]}]', end='')
 print()
 print(f'O menor peso foi de {men} kg. Peso de ', end='')
 for p in list:
