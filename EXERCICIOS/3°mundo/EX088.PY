@@ -3,17 +3,17 @@ from time import sleep
 lista = list()
 jogos = list()
 tot = 1
+cont = 0
 print ('--'*16)
 print('       JOGA NA MEGA CENA       ')
 print ('--'*16)
 quant = int(input('Quantas jogadas você deseja? '))
-print('-='*3, 'SORTEANDO OS JOGOS', '-='*3)
+print('-='*3, f'SORTEANDO {quant} JOGOS', '-='*3)
 while tot <= quant:
-    cont = 0
     while True:
-        n = randint(1,60)
-        if n not in lista: # IF para adiocionar somente números que não foram sorteados antes
-            lista.append(n) 
+        num = randint(1,60)
+        if num not in lista: # IF para adiocionar somente números que não foram sorteados antes
+            lista.append(num) 
             cont += 1
         if cont >= 6:
             break
