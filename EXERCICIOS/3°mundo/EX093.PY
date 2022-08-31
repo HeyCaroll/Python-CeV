@@ -1,15 +1,20 @@
-from tkinter import N
-
-
 dados = dict()
+partidas = list ()
 
 dados ['nome'] = str(input('Digite o nome: '))
-dados ['partidas'] = int(input('Partidas jogadas: '))
-for c in range(dados['partidas']):
-    dados ['gols'] = int(input(f'Gols na {c+1} partida: '))
-   
+totalp = int(input('Partidas jogadas: '))
+for c in range(0, totalp):
+    partidas.append(int(input(f'   -Gols na {c+1} partida: ')))
+dados ['gols'] = partidas[:]
+dados ['total'] = sum(partidas)
+print('=-'*20)
 print (dados)
-print(f'Nome do jogador(A): {dados["nome"]}')
-print (f'Quantas partidas {dados["nome"]} jogou? {dados["partidas"]}')
-for k,v in range.enumerate(dados["partidas"]):
-    print(f'Quantos gols na partida {k}: ')
+print('-='*20)
+for k,v in dados.items():
+    print(f'O campo {k} tem o valor {v}')
+print('-='*20)
+print(f'O jogador {dados["nome"]} jogou {len(dados["gols"])} partidas.')
+for i,v in enumerate(dados['gols']):
+    print(f'    => Na partiad {i}, fez {v} gols.')
+print (f'Foram um total de {dados["total"]} gols.')
+
