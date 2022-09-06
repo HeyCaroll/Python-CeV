@@ -25,7 +25,7 @@ print (f'A média de idade é de {media:5.2f} anos.')
 print(f'As mulheres cadrastadas foram', end='')
 for p in ficha:
     if p['sexo'] in 'F':
-        print(f'{p["nom"]}', end='')
+        print(f'{p["nome"]}', end='')
 print()
 print(f'Lista das pessoas acima da media:', end='')
 for p in ficha:
