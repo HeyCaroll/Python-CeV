@@ -4,6 +4,6 @@ def mensagem(msg):
     print(msg)
     print('=' * tam)
 
-
+# Programa principal
 mensagem('olá')
 mensagem('Testando...')
