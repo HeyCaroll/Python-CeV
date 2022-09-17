@@ -1,5 +1,5 @@
 
-# Enunciados do 3° Mundo 
+# Enunciados do 3° Mundo
 
 ### 072 - Número por extenso
   Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso de zero até vinte. Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso
@@ -116,16 +116,16 @@ c) Uma contagem personalizada
   Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros com valores inteiros. Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
 
 ### 100 - Funções para sortear e somar
-  
+  Faça um programa que tenha uma lista chamada números e duas funções chamadas sorteia() e somaPar(). A primeira função vai sortear 5 números e vai colocá-los dentro da lista e a segunda função vai mostrar a soma entre todos os valores pares sorteados pela função anterior.
 
 ### 101 - Funções para votação
-  
+   Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal indicando se uma pessoa tem voto NEGADO, OPCIONAL e OBRIGATÓRIO nas eleições.
 
 ### 102 - Função para fatorial
-  
+  Crie um programa que tenha uma função fatorial() que receba dois parâmetros: o primeiro que indique o número a calcular e outro chamado show, que será um valor lógico (opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
 
 ### 103 - Ficha do jogador
-  
+  Faça um programa que tenha uma função chamada ficha(), que receba dois parâmetros opcionais: o nome de um jogador e quantos gols ele marcou. O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado não tenha sido informado corretamente.
 
 ### 104 - Validando entrada de dados em Python
   
