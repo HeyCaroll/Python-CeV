@@ -10,7 +10,6 @@ for c in range(0,3):
 print()
 print('~'* 40)
 
-print(f'-> aumentando 10%, temos {moeda.moeda(moeda.aumenta(valor))}')
-print(f'-> Diminuindo 13% {moeda.moeda(valor)} é {moeda.moeda(moeda.diminuir(valor))}')
-print(f'-> O dobro de {moeda.moeda(valor)} é {moeda.moeda(moeda.dobro(valor))}')
 print(f'-> A metade de {moeda.moeda(valor)} é {moeda.moeda(moeda.metade(valor))}')
+print(f'-> O dobro de {moeda.moeda(valor)} é {moeda.moeda(moeda.dobro(valor))}')
+print(f'-> aumentando 10%, temos {moeda.moeda(moeda.aumenta(valor))}')

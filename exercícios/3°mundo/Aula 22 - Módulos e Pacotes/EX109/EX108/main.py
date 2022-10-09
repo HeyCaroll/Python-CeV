@@ -14,3 +14,4 @@ print(f'-> aumentando 10%, temos {moeda.aumenta(valor,10, True)}')
 print(f'-> Diminuindo 13% {valor}, temos {moeda.diminuir(valor,13,True)}')
 print(f'-> O dobro de {valor} é {moeda.dobro(valor,True)}')
 print(f'-> A metade de {valor} é {moeda.metade(valor,True)}')
+ 

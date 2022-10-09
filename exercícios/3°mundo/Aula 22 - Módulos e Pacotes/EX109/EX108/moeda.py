@@ -1,12 +1,11 @@
 from time import sleep
-import moeda
 def aumenta(num=0,taxa=0, formato=False):
-    res=num + (num * taxa/100)
+    res=num + (num * (taxa/100))
     return res if formato is False else moeda(res)
 
 
 def diminuir(num=0,taxa=0, formato=False):
-    res=num - (num * taxa/100)
+    res=num - (num * (taxa/100))
     return res if formato is False else moeda(res)
     
     
@@ -24,3 +23,4 @@ def moeda(valor=0, moeda='R$'):
     return f'{moeda}{valor:>.2f}'.replace('.',',')
 
 
+ 
