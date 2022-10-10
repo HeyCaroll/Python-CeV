@@ -1,4 +1,4 @@
-from EX111.utilidadesCeV import moeda, dado
+from utilidadescev import moeda
 
 valor =float(input('Digite o preço: R$'))
-moeda.resumo(valor, 20, 12)
+moeda.resumo(valor, 35, 22)
