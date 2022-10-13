@@ -157,19 +157,19 @@ c) Uma contagem personalizada
   Crie um pacote chamado utilidadesCeV que tenha dois módulos internos chamados moeda e dado. Transfira todas as funções utilizadas nos desafios 107, 108 e 109 para o primeiro pacote e mantenha tudo funcionando
 
 ### 112 - Entrada de dados monetários
-  
+  Dentro do pacote utilidadesCeV que criamos no desafio 111, temos um módulo chamado dado. Crie uma função chamada leiaDinheiro() que seja capaz de funcionar como a função input(), mas com uma validação de dados para aceitar apenas valores que seja monetários.
 
 ### 113 - Funções aprofundadas em Python
-  
+  Reescreva a função leiaInt() que fizemos no desafio 104, incluindo agora a possibilidade da digitação de um número de tipo inválido. Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
 
 ### 114 - Site está acessível?
-  
+  Crie um código em Python que teste se o site pudim está acessível pelo computador usado.
 
 ### 115a - Criando um menu em Python
-  
+  Vamos criar um menu em Python, usando modularização.
 
 ### 115b - Criando um menu em Python
-  
+   Vamos ver como fazer acesso a arquivos usando o Python.
 
 ### 115c - Finalizando o projeto
   
